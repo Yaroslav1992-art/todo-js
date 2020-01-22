@@ -5,18 +5,33 @@ html {
 body {
   min-height: 100%;
   height: 100%;
-  font-family: Bad Script;
+  /* font-family: "Gelasio", serif; */
   background: #91eae4;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #91eae4, #86a8e7, #7f7fd5);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #91eae4, #86a8e7, #7f7fd5);
+  /* background: linear-gradient(to bottom, #91eae4, #86a8e7, #7f7fd5); */
+  background-image: linear-gradient(
+    to top right,
+    rgb(166, 230, 223),
+    rgba(158, 225, 215, 0.94),
+    rgba(150, 220, 208, 0.88),
+    rgba(142, 214, 200, 0.82),
+    rgba(134, 209, 193, 0.76),
+    rgba(126, 204, 185, 0.7),
+    rgba(119, 199, 178, 0.65),
+    rgba(111, 194, 170, 0.59),
+    rgba(103, 189, 163, 0.53),
+    rgba(95, 183, 155, 0.47),
+    rgba(87, 178, 148, 0.41),
+    rgba(79, 173, 140, 0.35)
+  );
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1 {
   text-transform: uppercase;
-  background: #86a8e7;
+  background: #decbc3;
   color: white;
   margin: 0;
   padding: 10px 28px;
@@ -37,9 +52,9 @@ input {
 
 input:focus {
   background: #edf1f5;
-  border: 3px solid #86a8e7;
+  border: 3px solid #decbc3;
   outline: none;
-  color: #86a8e7;
+  color: black;
 }
 
 span.todo-trash {
@@ -57,8 +72,8 @@ i {
 }
 
 button {
-  background-color: #86a8e7;
-  border: 2px solid #86a8e7;
+  background-color: #decbc3;
+  border: 2px solid #decbc3;
   color: white;
   padding: 8px 20px;
   text-align: center;
@@ -76,7 +91,7 @@ button {
 button:hover {
   background-color: white;
   color: black;
-  border: 2px solid #86a8e7;
+  border: 2px solid #decbc3;
 }
 
 #buttons {
@@ -113,7 +128,7 @@ button:hover {
   top: 15px;
   right: 40px;
   font-size: 60px;
-  color: #86a8e7;
+  color: #decbc3;
   cursor: pointer;
 }
 
@@ -121,7 +136,7 @@ button:hover {
   padding: 8px;
   list-style-type: circle;
   font-size: 30px;
-  color: #818181;
+  color: #decbc3;
   display: block;
 }
 
@@ -169,7 +184,7 @@ button:hover {
 }
 
 .fa-trash-alt {
-  color: #7f7fd5;
+  color: red;
 }
 
 .tips {
