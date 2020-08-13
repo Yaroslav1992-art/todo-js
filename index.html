@@ -3,7 +3,7 @@
   <head>
     <title>Приложение To-Do List</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
@@ -14,8 +14,6 @@
       href="https://fonts.googleapis.com/css?family=Gelasio:400,400i,500,700,700i&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="assets/favicon.ico" />
-    <link rel="icon" type="image/gif" href="assets/animated_favicon.gif" />
   </head>
   <body>
     <div id="todo">
@@ -32,6 +30,7 @@
         </li> -->
       </ul>
       <div id="buttons">
+        <button class="add">Добавить</button>
         <button class="save">Сохранить</button>
         <button class="clear">Очистить</button>
         <button class="showTips">Справка</button>
@@ -42,7 +41,8 @@
       <ul class="tips">
         <li>Чтобы спрятать или показать поле ввода, кликните на карандаш</li>
         <li>
-          Для добавления списка дел напишите текст в поле ввода и нажмите Ввод
+          Для добавления списка дел напишите текст в поле ввода и нажмите
+          "Добавить" или "Enter"
         </li>
         <li>
           Чтобы удалить один пункт, наведите на него и нажмите на значок корзины
@@ -51,6 +51,6 @@
         <li>Нажмите "Сохранить", чтобы сохранить список дел на потом</li>
       </ul>
     </div>
-    <script src="./index.js"></script>
+    <script src="./dist/index.js"></script>
   </body>
 </html>

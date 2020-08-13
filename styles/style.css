@@ -95,15 +95,15 @@ button:hover {
 }
 
 #buttons {
-  display: inline-block;
+  display: block;
   text-align: center;
-  margin: 2px 4px;
+  margin: 2px auto;
 }
 
 #todo {
   margin: 0 auto;
   box-shadow: 0 0 1em black;
-  max-width: 400px;
+  max-width: 500px;
   height: 100%;
   background: white;
   position: relative;
